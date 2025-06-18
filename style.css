@@ -1,0 +1,64 @@
+h1{
+  text-align: center;
+}
+
+body {
+  background-color: #a10c0c;
+  font-family: Arial, sans-serif;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  
+}
+p{
+  font-size: 40px;
+  height: 60px;
+ 
+  background-color: powderblue;
+  text-align: center;
+}
+button{
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: powderblue;
+  cursor: pointer;
+}
+.box{
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(231, 231, 26);
+  flex-basis: calc(10.5% - 10px); /* Adjust width to fit 5 boxes in a row */
+}
+
+.sheet{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+ 
+}
+.highlight{
+  background-color: rgb(94, 13, 244);
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+ }
+
+ .highlightbox{
+  border: 10px solid green;
+  
+ }
