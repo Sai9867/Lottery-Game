@@ -23,6 +23,7 @@ This folder contains multiple projects related to web development, including lot
  **Lottery Game**:
    - Open `lottery2/index.html` in a browser.
    - Click the "Pick the number" button to play the game.
+   - live https://velvety-peony-e8022f.netlify.app/
 
 
 
