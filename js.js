@@ -41,7 +41,7 @@ const gifts = [
   "₹300 Cash",
   "Travel Pillow",
   "Mini Backpack",
-  "Personalized Mug",
+  "Smartwatch",
   "Gaming Controller",
   "Camera Strap",
   "Toy Robot",
