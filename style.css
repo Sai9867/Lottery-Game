@@ -18,13 +18,13 @@ p{
   font-size: 20px;
   height: 40px;
  
-  background-color: powderblue;
+  background-color: white;
   text-align: center;
 }
 button{
   font-size: 20px;
   border-radius: 10px;
-  background-color: powderblue;
+  background-color: white;
   cursor: pointer;
 }
 .box{
@@ -36,7 +36,7 @@ button{
   align-items: center;
   font-weight: bold;
   font-size: 18px;
-  margin: 5px;
+  margin: 2px;
   text-align: center;
   background-color: rgb(231, 231, 26);
   flex-basis: calc(10.5% - 10px); /* Adjust width to fit 5 boxes in a row */
