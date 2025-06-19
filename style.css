@@ -15,20 +15,20 @@ div {
   
 }
 p{
-  font-size: 40px;
-  height: 60px;
+  font-size: 20px;
+  height: 40px;
  
   background-color: powderblue;
   text-align: center;
 }
 button{
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 10px;
   background-color: powderblue;
   cursor: pointer;
 }
 .box{
-  height: 30px;
+  height: 50px;
   width: 150px;
   border: 1px solid black;
   display: flex;
