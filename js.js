@@ -56,7 +56,7 @@ const gifts = [
 ];
 
 picknumberbtn.addEventListener("click",function(){
-  for(let i = 1; i <= 50; i++) {
+  for(let i = 1; i <= 48; i++) {
     document.getElementById(i).classList.remove("highlight");
   }
   displaybtn.textContent = "please wait...";
@@ -68,7 +68,7 @@ picknumberbtn.addEventListener("click",function(){
     tick.play();
     secondcount = secondcount + 1;
      const randombox = Math.floor(Math.random() * 50) + 1;
-     for(let i = 1; i <= 50; i++) {
+     for(let i = 1; i <= 48; i++) {
       if(i === randombox){
         document.getElementById(i).classList.add("highlightbox");
 
@@ -83,7 +83,7 @@ picknumberbtn.addEventListener("click",function(){
       win.play();
       
       const displaybtn = document.getElementById("displaybtn");
-      const randomNumber = Math.floor(Math.random() * 50) + 1;
+      const randomNumber = Math.floor(Math.random() * 48) + 1;
       displaybtn.textContent = `You picked number ${randomNumber} and won a ${gifts[randomNumber - 1]}`;
         document.getElementById(randombox).classList.remove("highlightbox");
        document.getElementById(randomNumber).classList.add("highlight");
