@@ -48,11 +48,11 @@ const gifts = [
   "₹750 Cash",
   "Sports Equipment",
   "Pen Set",
-  "Bluetooth Earbuds",
-  "Digital Photo Frame",
-  "Wallet",
   "Backpack",
   "Gift Hamper",
+  "Wallet",
+  
+  
 ];
 
 picknumberbtn.addEventListener("click",function(){
